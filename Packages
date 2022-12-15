@@ -1,0 +1,107 @@
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+License: AGPL-3.0-only
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 12742
+Filename: dns2tcp_1.1.0-1_mipsel_24kc.ipk
+Size: 13488
+SHA256sum: d7adc24a2eae99769239a34995532344c3a25d08a5ea39b39cc2ff5c7245e771
+Description:  utility to convert dns query from udp to tcp
+
+Package: lua-neturl
+Version: 1.1-1-1
+Depends: libc, lua
+License: MIT
+Section: lang
+Architecture: all
+Installed-Size: 4529
+Filename: lua-neturl_1.1-1-1_all.ipk
+Size: 5315
+SHA256sum: 0ee29f5b83173aa2da0be834045424acce3d14ddb5bf693b588c38614577f8ed
+Description:  This small Lua library provides a few functions to parse URL with
+ querystring and build new URL easily.
+
+Package: luci-app-ssr-plus
+Version: 186-7
+Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ipset, kmod-ipt-nat, ip-full, iptables, iptables-mod-tproxy, lua, lua-neturl, libuci-lua, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, simple-obfs, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir
+Section: luci
+Architecture: all
+Installed-Size: 196517
+Filename: luci-app-ssr-plus_186-7_all.ipk
+Size: 196629
+SHA256sum: 5c231c7820d66f65d1eb77a7c7029e445a667182c85a9de14170833d98292ff6
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 186-7
+Depends: libc, luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 7142
+Filename: luci-i18n-ssr-plus-zh-cn_186-7_all.ipk
+Size: 8003
+SHA256sum: 3644c4833432501e810afe71e9b3f0a0da4ea56ca3d5ed55be08c9e0a86a9f98
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 2427
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_mipsel_24kc.ipk
+Size: 3147
+SHA256sum: bba1a9617cba514bea8021730c704e1a88cbd6d77e1068c1f4b2465252ab4b7f
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 57234
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_mipsel_24kc.ipk
+Size: 57825
+SHA256sum: 1bde80e4c6942ab138ce7ed8e4ac57e3a871ab1bedb6e9beafd2e34aac70f652
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 51053
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_mipsel_24kc.ipk
+Size: 51616
+SHA256sum: f9712cf8683ec14e92995b4f81d1184f8b98419f87ec0c1ac89796b9144c2c51
+Description:  shadowsocksr-libev ssr-redir
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+License: GPL-3.0-or-later
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 27789
+Filename: simple-obfs_0.0.5-1_mipsel_24kc.ipk
+Size: 28581
+SHA256sum: c856a0edc585b1af3ec821a9be777bdf98b924d8d220a3cf074bebb19530c0e9
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 3881
+Filename: tcping_0.3-1_mipsel_24kc.ipk
+Size: 4573
+SHA256sum: 5c4b92f694e49d7b6bd24152246f5af5dc1722223f6ca415455240e418ec71da
+Description:  tcping measures the latency of a tcp-connection
+
